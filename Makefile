@@ -28,7 +28,7 @@ BINUTILS_VERSION = 2.20.1
 NEWLIB_VERSION   = 1.16.0
 DFU_VERSION      = 0.5.4
 AVR_PATCH_REV	 = 3.3.2.321
-AVR_HEADER_REV   = 3.2.3.258
+AVR_HEADER_REV   = 3.2.3.791
 
 
 #### PATHS AND ENVIRONMENT VARIABLES #####
@@ -84,9 +84,9 @@ AVR32PATCHES_ARCHIVE = avr32-gnu-toolchain-$(AVR_PATCH_REV)-source.zip
 AVR32PATCHES_URL=http://www.atmel.com/dyn/resources/prod_documents/$(AVR32PATCHES_ARCHIVE)
 AVR32PATCHES_MD5 = 68fe4f7a4b8f19183a3be0ce84a75425
 
-AVR32HEADERS_ARCHIVE = avr32-headers-$(AVR_HEADER_REV).zip
+AVR32HEADERS_ARCHIVE = avr-headers-$(AVR_HEADER_REV).zip
 AVR32HEADERS_URL=http://www.atmel.com/dyn/resources/prod_documents/$(AVR32HEADERS_ARCHIVE)
-AVR32HEADERS_MD5 = 3293d70a46e460d342e1f939b8e0d228
+AVR32HEADERS_MD5 = 3942d6eb09c1d0fe4cf31bd8301611e0
 
 DFU_ARCHIVE = dfu-programmer-$(DFU_VERSION).tar.gz
 DFU_URL = http://surfnet.dl.sourceforge.net/project/dfu-programmer/dfu-programmer/$(DFU_VERSION)/$(DFU_ARCHIVE)
